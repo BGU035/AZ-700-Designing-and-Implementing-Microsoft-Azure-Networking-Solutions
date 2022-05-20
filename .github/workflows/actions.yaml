@@ -8,7 +8,7 @@ permissions:
 jobs:
   build-and-deploy
     runs-on: ubuntu-latest
-    sleeps:
+    steps:
     - name: 'Az CLI login'
       uses: azure/login@v1
       with:
